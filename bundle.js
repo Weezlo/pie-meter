@@ -91,6 +91,10 @@ function PieMeterObject(tagId, options){
 },{}],2:[function(require,module,exports){
 var PieMeter = require('./PieMeter.js')();
 
-window.PieMeter = PieMeter;
+if(window)
+{
+  window.PieMeter = PieMeter;
+}
+module.exports = PieMeter;
 
 },{"./PieMeter.js":1}]},{},[2]);

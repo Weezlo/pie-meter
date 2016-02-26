@@ -1,3 +1,7 @@
 var PieMeter = require('./PieMeter.js')();
 
-window.PieMeter = PieMeter;
+if(window)
+{
+  window.PieMeter = PieMeter;
+}
+module.exports = PieMeter;
