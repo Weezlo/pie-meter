@@ -1,7 +1,7 @@
 var PieMeter = require('./PieMeter.js')();
 
-if(window)
+if(typeof window === 'undefined')
 {
-  window.PieMeter = PieMeter;
+  throw "This component is for client side javascript";
 }
-module.exports = PieMeter;
+window.PieMeter = PieMeter;
