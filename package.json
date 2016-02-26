@@ -1,0 +1,25 @@
+{
+  "name": "pie-meter",
+  "version": "1.0.0",
+  "description": "Lightweight pie meter",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Weezlo/pie-meter.git"
+  },
+  "keywords": [
+    "UI",
+    "pie",
+    "meter",
+    "canvas"
+  ],
+  "author": "Anis Nouira <weezlo.an@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Weezlo/pie-meter/issues"
+  },
+  "homepage": "https://github.com/Weezlo/pie-meter#readme"
+}

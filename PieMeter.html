@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="piemeter"></div>
+    <div id="piemeter2"></div>
+
+    <script src="./bundle.js" type="text/javascript"></script>
+    <script>
+      var pieMeter = PieMeter.attach("piemeter");
+      var pieMeter2 = PieMeter.attach("piemeter2");
+      var percent = 0;
+      var percent2 = 0;
+      var timer = setInterval(function(){
+        if(percent <= 100){
+          pieMeter.setValue(percent++, true);
+        }
+        else clearInterval(timer);
+      },100);
+      var timer2 = setInterval(function(){
+        if(percent2 <= 100){
+          pieMeter2.setValue(percent2++, true);
+        }
+        else clearInterval(timer2);
+      },50);
+    </script>
+  </body>
+</html>

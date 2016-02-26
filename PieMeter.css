@@ -1,0 +1,10 @@
+.piemeter .percent{
+	text-align:center; 
+	width:150px; 
+	position: absolute;
+	top: 65px;
+	font-size: xx-large;
+	font-family: sans-serif;
+	color:white;
+	text-shadow: green 2px 2px;
+}
